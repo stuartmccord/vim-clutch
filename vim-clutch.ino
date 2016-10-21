@@ -21,7 +21,7 @@ void loop() {
 
   if (newStatus != lastStatus) {
     if (newStatus == HIGH) {
-      keyCode = KEYCODE_I;
+      keyCode = KEYCODE_F6;
     } else {
       keyCode = KEYCODE_ESC;
     }
